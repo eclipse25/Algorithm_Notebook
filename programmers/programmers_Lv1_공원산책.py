@@ -1,7 +1,9 @@
 def solution(park, routes):
+
     row = len(park[0])  # park 가로길이
     col = len(park)  # park 세로길이
     obs = []  # 장애물위치 리스트
+
     for i in range(col):
         for j in range(row):
             if park[i][j] == 'S':  # 초기 S위치
@@ -9,7 +11,9 @@ def solution(park, routes):
                 lr = j
             elif park[i][j] == 'X':  # 장애물 위치
                 obs.append([i, j])
+
     n = len(routes)
+
     for i in range(n):
         a, b = routes[i].split()
         b = int(b)
@@ -49,7 +53,9 @@ def solution(park, routes):
                 if br == 1:
                     continue
                 lc += b
+
     answer = []
     answer.append(lc)
     answer.append(lr)
+
     return answer
