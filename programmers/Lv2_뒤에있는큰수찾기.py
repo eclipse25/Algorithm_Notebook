@@ -10,9 +10,8 @@ def solution(numbers):
 
     return answer
 
+
 # 시간초과 코드
-
-
 def solution(numbers):
     answer = []
     for i in range(len(numbers) - 1):
