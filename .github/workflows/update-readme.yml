@@ -29,4 +29,5 @@ jobs: # 실제 실행될 내용
           git commit -am "auto update README.md" # 커밋 메시지
       - name: Push changes # 4) 메인에 푸시
         run: |
-          git push -f origin main
+          git pull
+          git push origin main
