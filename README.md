@@ -6,10 +6,6 @@
 
 <br>
 
-### 🚀 programmers
-| 문제번호 | 링크 |
-| ----- | ----- |
-|dev_course|[링크](./programmers/dev_course/%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%97%90%EC%84%9C%EC%9B%90%EC%86%8C%EC%B0%BE%EA%B8%B0.py)|
 ## 📚 백준
 ### 🚀 Bronze
 | 문제번호 | 링크 |
