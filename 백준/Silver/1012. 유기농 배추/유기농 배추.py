@@ -11,16 +11,17 @@ def dfs(x, y, field, visited):
       # 상하좌우 네 방향에 대해 탐색
       for (dx, dy) in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
         nx, ny = x + dx, y + dy
-        # 다음 위치가 필드 안에 있고, 방문하지 않았으며, 배추가 심어져 있는지 확인
-        if 0 <= nx < len(field[0]) and 0 <= ny < len(field) and not visited[ny][nx] and field[ny][nx] == 1:
+        # 필드 안에 있고, 방문하지 않았으며, 배추가 심어져 있는지 확인
+        if 0 <= nx < m and 0 <= ny < n and not visited[ny][nx] and field[ny][nx] == 1:
           stack.append((nx, ny))
 
 
-t = int(sys.stdin.readline())  # 테스트 케이스의 수
+t = int(sys.stdin.readline()) 
 for _ in range(t):
-  m, n, k = map(int, sys.stdin.readline().split())  # 배추밭의 가로길이 m, 세로길이 n, 배추 위치의 개수 k
+  # 배추밭의 가로길이 m, 세로길이 n, 배추 위치의 개수 k
+  m, n, k = map(int, sys.stdin.readline().split())
   field = [[0] * m for _ in range(n)]  # 배추밭 초기화
-  visited = [[False] * m for _ in range(n)]  # 방문 여부 체크를 위한 배열 초기화
+  visited = [[False] * m for _ in range(n)]  # 방문 여부 체크 초기화
 
   # 배추 위치 입력 받기
   for _ in range(k):
