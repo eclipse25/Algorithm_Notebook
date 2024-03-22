@@ -48,7 +48,9 @@ def main():
                 content += "| ----- | ----- |\n"
             directories.append(directory)
 
-        for file in files:
+        files_sorted = sorted(files, key=lambda x: int(x.split('.')[0]))
+
+        for file in files_sorted:
             if category not in solveds:
                 content += "|{}|[링크]({})|\n".format(category,
                                                     parse.quote(os.path.join(root, file)))
