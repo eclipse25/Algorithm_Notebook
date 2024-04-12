@@ -26,8 +26,7 @@ jobs: # 실제 실행될 내용
           git config --global user.name 'eclipse25' # 유저명
           git config --global user.email 'yk99902@naver.com' # 유저 이메일
           git add -A
-          git diff --staged --exit-code || exit 0 # 변경된 파일이 없다면 종료
-          git commit -am "auto update README.md" # 커밋 메시지
+          git commit -m "auto update README.md" || exit 0 # 변경된 파일이 없어 commit 실패 시 종료
       - name: Push changes # 4) 메인에 푸시
         run: |
           git pull
