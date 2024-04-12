@@ -41,12 +41,12 @@ def main():
 
         if directory not in directories:
             if directory in ["백준", "프로그래머스"]:
-                content += "## 📚 {}\n".format(directory)
+                content += "<h3 style='font-weight: bold;'>📚 {}</h3>\n".format(directory)
             else:
-                content += "### 🚀 {}\n".format(directory)
-                content += "<table>\n"
+                content += "<h3 style='font-weight: bold;'>🚀 {}</h3>\n".format(directory)
+                content += "<table style='width: 800px;'>\n"
                 content += "<thead>\n"
-                content += "<tr><th>문제번호</th><th>링크</th></tr>\n"
+                content += "<tr><th style='width: 650px;'>문제번호</th><th style='width: 150px;'>링크</th></tr>\n"
                 content += "</thead>\n"
                 content += "<tbody>\n"
             directories.append(directory)
