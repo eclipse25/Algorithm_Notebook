@@ -44,7 +44,8 @@ def main():
                 content += "<h3 style='font-weight: bold;'>📚 {}</h3>\n".format(directory)
             else:
                 content += "<h3 style='font-weight: bold;'>🚀 {}</h3>\n".format(directory)
-                content += "<table style='width: 800px;'>\n"
+                content += "<div style='width: 800px;'>\n"
+                content += "<table>\n"
                 content += "<thead>\n"
                 content += "<tr><th style='width: 650px;'>문제번호</th><th style='width: 150px;'>링크</th></tr>\n"
                 content += "</thead>\n"
@@ -58,7 +59,7 @@ def main():
                 print("category : " + category)
 
     with open("README.md", "w") as fd:
-        fd.write(content + "</tbody>\n</table>\n")
+        fd.write(content + "</tbody>\n</table>\n</div>\n")
 
 
 if __name__ == "__main__":
