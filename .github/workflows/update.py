@@ -54,7 +54,10 @@ def main():
 
         for file in files:
             if category not in solveds:
-                content += "<tr><td>{}</td><td>[링크]({})</td></tr>\n".format(category, parse.quote(os.path.join(root, file)))
+                file_path = os.path.join(root, file)
+                link = parse.quote(file_path)
+                html_link = '<a href="{}">링크</a>'.format(link)
+                content += "<tr><td>{}</td><td>{}</td></tr>\n".format(category, html_link)
                 solveds.append(category)
                 print("category : " + category)
 
