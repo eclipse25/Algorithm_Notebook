@@ -4,13 +4,10 @@ import os
 from urllib import parse
 
 HEADER = """
-
 ## ✨알고리즘 문제 풀이 목록✨
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=eclipse34)](https://solved.ac/eclipse34/)
-
 """
-
 
 def main():
     content = ""
@@ -60,10 +57,12 @@ def main():
                 content += "<tr><td>{}</td><td>{}</td></tr>\n".format(category, html_link)
                 solveds.append(category)
                 print("category : " + category)
+        
+        if directory in directories:
+            content += "</tbody>\n</table>\n</div>\n"
 
     with open("README.md", "w") as fd:
-        fd.write(content + "</tbody>\n</table>\n</div>\n")
-
+        fd.write(content)
 
 if __name__ == "__main__":
     main()
