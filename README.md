@@ -4,29 +4,29 @@
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=eclipse34)](https://solved.ac/eclipse34/)
 
-## 📚 백준
-### 🚀 Bronze
-<table>
+<h3 style='font-weight: bold;'>📚 백준</h3>
+<h3 style='font-weight: bold;'>🚀 Bronze</h3>
+<table style='width: 800px;'>
 <thead>
-<tr><th>문제번호</th><th>링크</th></tr>
+<tr><th style='width: 650px;'>문제번호</th><th style='width: 150px;'>링크</th></tr>
 </thead>
 <tbody>
 <tr><td>1085. 직사각형에서 탈출</td><td>[링크](./%EB%B0%B1%EC%A4%80/Bronze/1085.%E2%80%85%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EC%97%90%EC%84%9C%E2%80%85%ED%83%88%EC%B6%9C/README.md)</td></tr>
 <tr><td>1259. 팰린드롬수</td><td>[링크](./%EB%B0%B1%EC%A4%80/Bronze/1259.%E2%80%85%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC%EC%88%98/%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC%EC%88%98.py)</td></tr>
-### 🚀 Gold
-<table>
+<h3 style='font-weight: bold;'>🚀 Gold</h3>
+<table style='width: 800px;'>
 <thead>
-<tr><th>문제번호</th><th>링크</th></tr>
+<tr><th style='width: 650px;'>문제번호</th><th style='width: 150px;'>링크</th></tr>
 </thead>
 <tbody>
 <tr><td>1377. 버블 소트</td><td>[링크](./%EB%B0%B1%EC%A4%80/Gold/1377.%E2%80%85%EB%B2%84%EB%B8%94%E2%80%85%EC%86%8C%ED%8A%B8/README.md)</td></tr>
 <tr><td>15486. 퇴사 2</td><td>[링크](./%EB%B0%B1%EC%A4%80/Gold/15486.%E2%80%85%ED%87%B4%EC%82%AC%E2%80%852/README.md)</td></tr>
 <tr><td>2110. 공유기 설치</td><td>[링크](./%EB%B0%B1%EC%A4%80/Gold/2110.%E2%80%85%EA%B3%B5%EC%9C%A0%EA%B8%B0%E2%80%85%EC%84%A4%EC%B9%98/README.md)</td></tr>
 <tr><td>6987. 월드컵</td><td>[링크](./%EB%B0%B1%EC%A4%80/Gold/6987.%E2%80%85%EC%9B%94%EB%93%9C%EC%BB%B5/%EC%9B%94%EB%93%9C%EC%BB%B5.py)</td></tr>
-### 🚀 Silver
-<table>
+<h3 style='font-weight: bold;'>🚀 Silver</h3>
+<table style='width: 800px;'>
 <thead>
-<tr><th>문제번호</th><th>링크</th></tr>
+<tr><th style='width: 650px;'>문제번호</th><th style='width: 150px;'>링크</th></tr>
 </thead>
 <tbody>
 <tr><td>1003. 피보나치 함수</td><td>[링크](./%EB%B0%B1%EC%A4%80/Silver/1003.%E2%80%85%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%E2%80%85%ED%95%A8%EC%88%98/README.md)</td></tr>
@@ -57,11 +57,11 @@
 <tr><td>3568. iSharp</td><td>[링크](./%EB%B0%B1%EC%A4%80/Silver/3568.%E2%80%85iSharp/README.md)</td></tr>
 <tr><td>4446. ROT13</td><td>[링크](./%EB%B0%B1%EC%A4%80/Silver/4446.%E2%80%85ROT13/ROT13.py)</td></tr>
 <tr><td>4949. 균형잡힌 세상</td><td>[링크](./%EB%B0%B1%EC%A4%80/Silver/4949.%E2%80%85%EA%B7%A0%ED%98%95%EC%9E%A1%ED%9E%8C%E2%80%85%EC%84%B8%EC%83%81/README.md)</td></tr>
-## 📚 프로그래머스
-### 🚀 1
-<table>
+<h3 style='font-weight: bold;'>📚 프로그래머스</h3>
+<h3 style='font-weight: bold;'>🚀 1</h3>
+<table style='width: 800px;'>
 <thead>
-<tr><th>문제번호</th><th>링크</th></tr>
+<tr><th style='width: 650px;'>문제번호</th><th style='width: 150px;'>링크</th></tr>
 </thead>
 <tbody>
 <tr><td>12906. 같은 숫자는 싫어</td><td>[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/12906.%E2%80%85%EA%B0%99%EC%9D%80%E2%80%85%EC%88%AB%EC%9E%90%EB%8A%94%E2%80%85%EC%8B%AB%EC%96%B4/README.md)</td></tr>
@@ -73,10 +73,10 @@
 <tr><td>1845. 폰켓몬</td><td>[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/1845.%E2%80%85%ED%8F%B0%EC%BC%93%EB%AA%AC/README.md)</td></tr>
 <tr><td>42576. 완주하지 못한 선수</td><td>[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/42576.%E2%80%85%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%E2%80%85%EB%AA%BB%ED%95%9C%E2%80%85%EC%84%A0%EC%88%98/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%E2%80%85%EB%AA%BB%ED%95%9C%E2%80%85%EC%84%A0%EC%88%98.py)</td></tr>
 <tr><td>42748. K번째수</td><td>[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/42748.%E2%80%85K%EB%B2%88%EC%A7%B8%EC%88%98/README.md)</td></tr>
-### 🚀 2
-<table>
+<h3 style='font-weight: bold;'>🚀 2</h3>
+<table style='width: 800px;'>
 <thead>
-<tr><th>문제번호</th><th>링크</th></tr>
+<tr><th style='width: 650px;'>문제번호</th><th style='width: 150px;'>링크</th></tr>
 </thead>
 <tbody>
 <tr><td>12900. 2 x n 타일링</td><td>[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/12900.%E2%80%852%E2%80%85x%E2%80%85n%E2%80%85%ED%83%80%EC%9D%BC%EB%A7%81/README.md)</td></tr>
@@ -90,20 +90,20 @@
 <tr><td>42586. 기능개발</td><td>[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42586.%E2%80%85%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C.py)</td></tr>
 <tr><td>42587. 프로세스</td><td>[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42587.%E2%80%85%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4/README.md)</td></tr>
 <tr><td>42626. 더 맵게</td><td>[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42626.%E2%80%85%EB%8D%94%E2%80%85%EB%A7%B5%EA%B2%8C/README.md)</td></tr>
-### 🚀 3
-<table>
+<h3 style='font-weight: bold;'>🚀 3</h3>
+<table style='width: 800px;'>
 <thead>
-<tr><th>문제번호</th><th>링크</th></tr>
+<tr><th style='width: 650px;'>문제번호</th><th style='width: 150px;'>링크</th></tr>
 </thead>
 <tbody>
 <tr><td>42579. 베스트앨범</td><td>[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/42579.%E2%80%85%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94/%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94.py)</td></tr>
 <tr><td>42628. 이중우선순위큐</td><td>[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/42628.%E2%80%85%EC%9D%B4%EC%A4%91%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%ED%81%90/README.md)</td></tr>
 <tr><td>42895. N으로 표현</td><td>[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/42895.%E2%80%85N%EC%9C%BC%EB%A1%9C%E2%80%85%ED%91%9C%ED%98%84/README.md)</td></tr>
 <tr><td>43105. 정수 삼각형</td><td>[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/43105.%E2%80%85%EC%A0%95%EC%88%98%E2%80%85%EC%82%BC%EA%B0%81%ED%98%95/%EC%A0%95%EC%88%98%E2%80%85%EC%82%BC%EA%B0%81%ED%98%95.py)</td></tr>
-### 🚀 4
-<table>
+<h3 style='font-weight: bold;'>🚀 4</h3>
+<table style='width: 800px;'>
 <thead>
-<tr><th>문제번호</th><th>링크</th></tr>
+<tr><th style='width: 650px;'>문제번호</th><th style='width: 150px;'>링크</th></tr>
 </thead>
 <tbody>
 <tr><td>42891. 무지의 먹방 라이브</td><td>[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/42891.%E2%80%85%EB%AC%B4%EC%A7%80%EC%9D%98%E2%80%85%EB%A8%B9%EB%B0%A9%E2%80%85%EB%9D%BC%EC%9D%B4%EB%B8%8C/%EB%AC%B4%EC%A7%80%EC%9D%98%E2%80%85%EB%A8%B9%EB%B0%A9%E2%80%85%EB%9D%BC%EC%9D%B4%EB%B8%8C.py)</td></tr>
