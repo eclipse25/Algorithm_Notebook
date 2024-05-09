@@ -7,7 +7,9 @@ HEADER = """
 
 ## ✨알고리즘 문제 풀이 목록✨
 
+<!-- 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=eclipse34)](https://solved.ac/eclipse34/)
+-->
 
 """
 
