@@ -29,6 +29,7 @@
 |15486. 퇴사 2|[링크](./%EB%B0%B1%EC%A4%80/Gold/15486.%E2%80%85%ED%87%B4%EC%82%AC%E2%80%852/README.md)|
 |2110. 공유기 설치|[링크](./%EB%B0%B1%EC%A4%80/Gold/2110.%E2%80%85%EA%B3%B5%EC%9C%A0%EA%B8%B0%E2%80%85%EC%84%A4%EC%B9%98/README.md)|
 |6987. 월드컵|[링크](./%EB%B0%B1%EC%A4%80/Gold/6987.%E2%80%85%EC%9B%94%EB%93%9C%EC%BB%B5/README.md)|
+|7576. 토마토|[링크](./%EB%B0%B1%EC%A4%80/Gold/7576.%E2%80%85%ED%86%A0%EB%A7%88%ED%86%A0/README.md)|
 |9663. N－Queen|[링크](./%EB%B0%B1%EC%A4%80/Gold/9663.%E2%80%85N%EF%BC%8DQueen/README.md)|
 ### 🚀 Silver
 | 문제번호 | 링크 |
