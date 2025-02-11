@@ -1,8 +1,7 @@
 def solution(nums):
-    answer = 0
-    set_nums = set(nums)
-    if len(set_nums) > len(nums) / 2:
-        answer = len(nums) / 2
-    else:
-        answer = len(set_nums)
+    pkm = {}
+    for num in nums:
+        pkm[num] = pkm.get(num, 0) + 1
+        
+    answer = min(len(pkm), len(nums) // 2)
     return answer
