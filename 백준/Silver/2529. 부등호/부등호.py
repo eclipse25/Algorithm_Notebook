@@ -1,26 +1,38 @@
 import sys
-from itertools import permutations
-
 
 k = int(sys.stdin.readline())
 operators = list(sys.stdin.readline().split())
-cases = []
+
+min_result, max_result = None, None
 
 
-def add_case(numbers):
-    for i, operator in enumerate(operators):
-        if operator == ">":
-            if numbers[i] < numbers[i + 1]:
-                return
-        else:
-            if numbers[i] > numbers[i + 1]:
-                return
-    cases.append("".join(map(str, numbers)))
+def valid(a, b, op):
+    if op == "<":
+        return a < b
+    else:
+        return a > b
 
 
-for comb in list(permutations(range(0, 10), k + 1)):
-    add_case(comb)
+def dfs(depth, path, used):
+    global min_result, max_result
 
-cases.sort()
-print(cases[-1])
-print(cases[0])
+    if depth == k + 1:
+        num_str = "".join(map(str, path))
+        if min_result is None:
+            min_result = num_str
+        max_result = num_str
+        return
+
+    for i in range(10):
+        if not used[i]:
+            if depth == 0 or valid(path[-1], i, operators[depth - 1]):
+                used[i] = True
+                dfs(depth + 1, path + [i], used)
+                used[i] = False
+
+
+used = [False] * 10
+dfs(0, [], used)
+
+print(max_result)
+print(min_result)
